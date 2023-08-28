@@ -26,7 +26,7 @@ const expectedSignature = crypto
   .update(body.toString())
   .digest("hex");
 
-const isAuthentic = expectedSignature ===razorpay_signature
+const isAuthentic = expectedSignature === razorpay_signature
 
 if(isAuthentic){
 
@@ -36,6 +36,7 @@ if(isAuthentic){
     razorpay_signature,
   });
 
+  
   res.redirect(`http://localhost:3000/paymentsuccess?reference=${razorpay_payment_id}`)
 
 }else{
