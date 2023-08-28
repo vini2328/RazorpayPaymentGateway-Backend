@@ -37,7 +37,7 @@ if(isAuthentic){
   });
 
   
-  res.redirect(`https://64ec9992854efe11cd3a5cb6--preeminent-palmier-34cdf4.netlify.app/paymentsuccess?reference=${razorpay_payment_id}`)
+  res.redirect(`https://64ec9f07ffa9180f9ca5a291--polite-gelato-88e938.netlify.app/paymentsuccess?reference=${razorpay_payment_id}`)
 
 }else{
   res.status(400).json({
