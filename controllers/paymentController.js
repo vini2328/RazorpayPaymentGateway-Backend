@@ -37,7 +37,7 @@ if(isAuthentic){
   });
 
   
-  res.redirect(`https://64eca26cd6186f17faa1437b--fanciful-daffodil-7d85fe.netlify.app/paymentsuccess?reference=${razorpay_payment_id}`)
+  res.redirect(`https://fanciful-daffodil-7d85fe.netlify.app/paymentsuccess?reference=${razorpay_payment_id}`)
 
 }else{
   res.status(400).json({
