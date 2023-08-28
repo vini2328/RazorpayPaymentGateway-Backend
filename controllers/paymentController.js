@@ -1,6 +1,6 @@
 import { instance } from "../server.js";
 import crypto from "crypto"
-import { Payment } from "../models/PaymentModel.js";
+import  {Payment}  from "../models/paymentModel.js";
 
 export const checkout = async (req, res) => {
   const options = {
